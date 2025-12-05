@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="url.hoyo.index.page">/</entry>
+    <entry key="url.hoyo.login.page">/login</entry>
+
+    <entry key="url.hoyo.index.html">/index</entry>
+    <entry key="url.hoyo.login.html">/hoyo/loginForm</entry>
+
+
+
+</properties>
