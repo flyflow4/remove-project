@@ -4,9 +4,11 @@
 
     <entry key="url.hoyo.index.page">/</entry>
     <entry key="url.hoyo.login.page">/login</entry>
+    <entry key="url.hoyo.sign.page">/sign</entry>
 
     <entry key="url.hoyo.index.html">/index</entry>
     <entry key="url.hoyo.login.html">/hoyo/loginForm</entry>
+    <entry key="url.hoyo.sign.html">/hoyo/signForm</entry>
 
 
 

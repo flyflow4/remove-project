@@ -14,9 +14,13 @@ public class AbstractHoyoIndexHttpService implements HoyoIndexService {
     @Value("${url.hoyo.login.page:}")
     private String loginUrl;
 
+    @Value("${url.hoyo.sign.page:}")
+    private String signUrl;
+
     @Override
     public String index(Model model, HttpServletRequest request, HttpServletResponse response) {
-        model.addAttribute("actionUrl", loginUrl);
+        model.addAttribute("loginUrl", loginUrl);
+        model.addAttribute("signUrl", signUrl);
         return indexHtml;
     }
 }
